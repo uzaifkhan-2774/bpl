@@ -6,12 +6,17 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+  
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
     },
+    // screens:{
+    //   "3xl":"2000px"
+    // },
   },
+ 
   plugins: [],
 };
