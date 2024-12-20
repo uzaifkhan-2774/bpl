@@ -31,7 +31,7 @@ const About = () => {
             alt="Logo 1"
             width={0}
             height={0}
-            className="rounded-[50px] h-[96px] sm:h-[150px] md:h-[300px] lg:h-[400px] xl:h-full  w-full"
+            className="rounded-[40px] sm:rounded-[10px] h-[96px] sm:h-[150px] md:h-[300px] lg:h-[400px] xl:h-full  w-full"
           />
         </div>
 

@@ -109,13 +109,13 @@ const Middle = () => {
   }, []);
 
   return (
-    <div className="m-4 md:m-8 lg:m-12 border-y-2 py-16 md:py-24 border-sky-400"> 
-      <div className="flex flex-wrap justify-between gap-6 md:gap-12 px-4 md:px-8">
+    <div className="my-4 md:my-8 lg:my-12 border-y-2 2xl:mx-48 xl:mx-16 lg:mx-8 md:mx-10 mx-5 sm:mx-6   py-16 md:py-24 border-sky-300"> 
+      <div className="flex flex-wrap justify-between gap-6 md:gap-12 ">
         <div className="flex-1 min-w-[280px]">
           <p className="text-sm md:text-base leading-6 md:leading-8 tracking-wide  text-gray-500">
             Achievements
           </p>
-          <h1 className="font-medium text-xl md:text-3xl lg:text-4xl leading-12  Font-Roboto md:leading-12 lg:leading-tight w-1/2">
+          <h1 className="font-medium text-xl md:text-3xl lg:text-4xl leading-12  md:leading-12 lg:leading-tight w-1/2">
             Product Innovation AWARDS in Medical Devices
           </h1>
         </div>
@@ -136,9 +136,9 @@ const Middle = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center gap-4 p-4  sm:py-8 px-4 xl:px-4 md:px-4">
+      <div className="flex flex-wrap justify-center items-center gap-4 py-4  sm:py-8 ">
          {/* coin 1*/}
-       <div ref={coin1} className="flex-shrink-0 w-[120px] hidden sm:hidden md:hidden lg:block xl:block  lg:w-[120px] xl:w-[170px] ">
+       <div ref={coin1} className="flex-shrink-0 w-[120px] hidden lg:block xl:block  lg:w-[120px] xl:w-[170px] ">
           <Image
             src="/assets/Item ⏵ radiology-imaging-excellence-awards-pic.svg"
             alt=""
@@ -148,7 +148,7 @@ const Middle = () => {
           />
         </div>
           {/*coin 2*/}
-        <div ref={coin2} className="flex-shrink-0 w-[120px] hidden sm:hidden md:hidden lg:block xl:block   lg:w-[120px] xl:w-[170px] ">
+        <div ref={coin2} className="flex-shrink-0 w-[120px] hidden lg:block xl:block   lg:w-[120px] xl:w-[170px] ">
           <Image
             src="/assets/Item ⏵ customer-value-leadership-award.svg"
             alt=""
@@ -158,7 +158,7 @@ const Middle = () => {
           />
         </div>
           {/*coin 3*/}
-        <div ref={coin3} className="flex-shrink-0 w-[120px] hidden sm:hidden md:hidden lg:block xl:block     lg:w-[120px] xl:w-[170px] ">
+        <div ref={coin3} className="flex-shrink-0 w-[120px] hidden lg:block xl:block     lg:w-[120px] xl:w-[170px] ">
           <Image
             src="/assets/Item ⏵ brand-trust-report-award.svg"
             alt=""
@@ -168,7 +168,7 @@ const Middle = () => {
           />
         </div>
           {/*coin 4*/}
-        <div ref={coin4} className="flex-shrink-0 w-[120px]  hidden sm:hidden md:hidden lg:block xl:block   lg:w-[120px] xl:w-[170px] ">
+        <div ref={coin4} className="flex-shrink-0 w-[120px]  hidden  lg:block xl:block   lg:w-[120px] xl:w-[170px] ">
           <Image
             src="/assets/Item ⏵ most-attractive-brands-report-award.svg"
             alt=""
@@ -178,7 +178,7 @@ const Middle = () => {
           />
         </div>
           {/*coin 5*/}
-        <div ref={coin5} className="flex-shrink-0 w-[120px]  hidden sm:hidden md:hidden lg:block xl:block    lg:w-[120px] xl:w-[170px] ">
+        <div ref={coin5} className="flex-shrink-0 w-[120px]  hidden  lg:block xl:block    lg:w-[120px] xl:w-[170px] ">
           <Image
             src="/assets/Item ⏵ south-asia-e-health-summit-award.png.svg"
             alt=""
@@ -188,19 +188,18 @@ const Middle = () => {
           />
         </div>
           {/*coin 6*/}
-          <div ref={coin6} className="flex-shrink-0 w-[120px] hidden sm:hidden md:hidden lg:block xl:block  lg:w-[120px] xl:w-[170px]">
+          <div ref={coin6} className="flex-shrink-0 w-[120px] hidden  lg:block xl:block  lg:w-[120px] xl:w-[170px]">
             <Image
-    src="/assets/Item ⏵ iot-next-summit-award.svg"
-    alt=""
-    height={0}
-    width={0}
-    className="w-full h-auto object-contain hover:opacity-70 transition"
-  />
-</div>
+             src="/assets/Item ⏵ iot-next-summit-award.svg"
+             alt=""
+             height={0}
+             width={0}
+             className="w-full h-auto object-contain hover:opacity-70 transition"
+            />
+          </div>
 
-   
-           {/*smcoin 1*/}
-           <div ref={coin7} className="flex-shrink-0  hidden sm:block md:hidden lg:hidden xl:hidden w-[80px]  ">
+            {/* simplecoin 1*/}
+       <div className="flex-shrink-0 w-[120px] block lg:hidden">
           <Image
             src="/assets/Item ⏵ radiology-imaging-excellence-awards-pic.svg"
             alt=""
@@ -209,8 +208,8 @@ const Middle = () => {
             className="w-full h-auto object-contain hover:opacity-70 transition"
           />
         </div>
-          {/*smcoin 2*/}
-        <div ref={coin8} className="flex-shrink-0  hidden sm:block md:hidden lg:hidden xl:hidden w-[80px]  ">
+          {/*simplecoin 2*/}
+        <div  className="flex-shrink-0 w-[120px]  block lg:hidden">
           <Image
             src="/assets/Item ⏵ customer-value-leadership-award.svg"
             alt=""
@@ -219,8 +218,8 @@ const Middle = () => {
             className="w-full h-auto object-contain hover:opacity-70 transition"
           />
         </div>
-          {/*smcoin 3*/}
-        <div ref={coin9} className="flex-shrink-0   hidden sm:block md:hidden lg:hidden xl:hidden w-[80px]  ">
+          {/*simplecoin 3*/}
+        <div  className="flex-shrink-0 w-[120px]  block lg:hidden ">
           <Image
             src="/assets/Item ⏵ brand-trust-report-award.svg"
             alt=""
@@ -229,8 +228,8 @@ const Middle = () => {
             className="w-full h-auto object-contain hover:opacity-70 transition"
           />
         </div>
-          {/*smcoin 4*/}
-        <div ref={coin10} className="flex-shrink-0 hidden sm:block md:hidden lg:hidden xl:hidden  w-[80px] ">
+          {/*simplecoin 4*/}
+        <div className="flex-shrink-0 w-[120px]   block lg:hidden">
           <Image
             src="/assets/Item ⏵ most-attractive-brands-report-award.svg"
             alt=""
@@ -239,8 +238,8 @@ const Middle = () => {
             className="w-full h-auto object-contain hover:opacity-70 transition"
           />
         </div>
-          {/*smcoin 5*/}
-        <div ref={coin11} className="flex-shrink-0  hidden sm:block md:hidden lg:hidden xl:hidden w-[80px] ">
+          {/*simplecoin 5*/}
+        <div  className="flex-shrink-0 w-[120px]   block lg:hidden ">
           <Image
             src="/assets/Item ⏵ south-asia-e-health-summit-award.png.svg"
             alt=""
@@ -249,137 +248,19 @@ const Middle = () => {
             className="w-full h-auto object-contain hover:opacity-70 transition"
           />
         </div>
-          {/*smcoin 6*/}
-        <div ref={coin12} className="flex-shrink-0  hidden sm:block md:hidden lg:hidden xl:hidden w-[80px] ">
-          <Image
-            src="/assets/Item ⏵ iot-next-summit-award.svg"
-            alt=""
-            height={0}
-            width={0}
-            className="w-full h-auto object-contain hover:opacity-70 transition"
-          />
-        </div>
-      
-            {/*mdcoin 1*/}
-            <div ref={coin13} className="flex-shrink-0  hidden sm:hidden md:block  lg:hidden xl:hidden w-[95px]  ">
-          <Image
-            src="/assets/Item ⏵ radiology-imaging-excellence-awards-pic.svg"
-            alt=""
-            height={0}
-            width={0}
-            className="w-full h-auto object-contain hover:opacity-70 transition"
-          />
-        </div>
-          {/*mdcoin 2*/}
-        <div ref={coin14} className="flex-shrink-0  hidden sm:hidden md:block  lg:hidden xl:hidden w-[95px] ">
-          <Image
-            src="/assets/Item ⏵ customer-value-leadership-award.svg"
-            alt=""
-            height={0}
-            width={0}
-            className="w-full h-auto object-contain hover:opacity-70 transition"
-          />
-        </div>
-          {/*mdcoin 3*/}
-        <div ref={coin15} className="flex-shrink-0   hidden sm:hidden md:block  lg:hidden xl:hidden w-[95px] ">
-          <Image
-            src="/assets/Item ⏵ brand-trust-report-award.svg"
-            alt=""
-            height={0}
-            width={0}
-            className="w-full h-auto object-contain hover:opacity-70 transition"
-          />
-        </div>
-          {/*mdcoin 4*/}
-        <div ref={coin16} className="flex-shrink-0 hidden sm:hidden md:block  lg:hidden xl:hidden  w-[95px]">
-          <Image
-            src="/assets/Item ⏵ most-attractive-brands-report-award.svg"
-            alt=""
-            height={0}
-            width={0}
-            className="w-full h-auto object-contain hover:opacity-70 transition"
-          />
-        </div>
-          {/*mdcoin 5*/}
-        <div ref={coin17} className="flex-shrink-0  hidden sm:hidden md:block lg:hidden xl:hidden w-[95px]">
-          <Image
-            src="/assets/Item ⏵ south-asia-e-health-summit-award.png.svg"
-            alt=""
-            height={0}
-            width={0}
-            className="w-full h-auto object-contain hover:opacity-70 transition"
-          />
-        </div>
-          {/*mdcoin 6*/}
-        <div ref={coin18} className="flex-shrink-0  hidden sm:hidden md:block lg:hidden xl:hidden w-[95px]">
-          <Image
-            src="/assets/Item ⏵ iot-next-summit-award.svg"
-            alt=""
-            height={0}
-            width={0}
-            className="w-full h-auto object-contain hover:opacity-70 transition"
-          />
-        </div>
-         {/*xscoin 1*/}
-         <div ref={coin19} className=" grid grid-cols-1  gap-4  sm:hidden md:hidden lg:hidden xl:hidden w-[120px]  ">
-          <Image
-            src="/assets/Item ⏵ radiology-imaging-excellence-awards-pic.svg"
-            alt=""
-            height={0}
-            width={0}
-            className="w-full h-auto object-contain hover:opacity-70 transition"
-          />
-        </div>
-          {/*xscoin 2*/}
-        <div ref={coin20} className=" grid grid-cols-1 gap-4  sm:hidden md:hidden lg:hidden xl:hidden w-[120px]  ">
-          <Image
-            src="/assets/Item ⏵ customer-value-leadership-award.svg"
-            alt=""
-            height={0}
-            width={0}
-            className="w-full h-auto object-contain hover:opacity-70 transition"
-          />
-        </div>
-          {/*xscoin 3*/}
-        <div ref={coin21} className=" grid grid-cols-1  gap-4   sm:hidden md:hidden lg:hidden xl:hidden w-[120px]  ">
-          <Image
-            src="/assets/Item ⏵ brand-trust-report-award.svg"
-            alt=""
-            height={0}
-            width={0}
-            className="w-full h-auto object-contain hover:opacity-70 transition"
-          />
-        </div>
-          {/*xscoin 4*/}
-        <div ref={coin22} className=" grid grid-cols-1 gap-4   sm:hidden md:hidden lg:hidden xl:hidden w-[120px] ">
-          <Image
-            src="/assets/Item ⏵ most-attractive-brands-report-award.svg"
-            alt=""
-            height={0}
-            width={0}
-            className="w-full h-auto object-contain hover:opacity-70 transition"
-          />
-        </div>
-          {/*xscoin 5*/}
-        <div ref={coin23} className=" grid grid-cols-1 gap-4   sm:hidden md:hidden lg:hidden xl:hidden w-[120px] ">
-          <Image
-            src="/assets/Item ⏵ south-asia-e-health-summit-award.png.svg"
-            alt=""
-            height={0}
-            width={0}
-            className="w-full h-auto object-contain hover:opacity-70 transition"
-          />
-        </div>
-          {/*xscoin 6*/}
-        <div ref={coin24} className=" grid grid-cols-1  gap-4  sm:hidden md:hidden lg:hidden xl:hidden w-[120px] ">
-          <Image
-            src="/assets/Item ⏵ iot-next-summit-award.svg"
-            alt=""
-            height={0}
-            width={0}
-            className="w-full h-auto object-contain hover:opacity-70 transition"
-          />
-        </div>
+          {/*simplecoin 6*/}
+          <div  className="flex-shrink-0 w-[120px]  block lg:hidden">
+            <Image
+             src="/assets/Item ⏵ iot-next-summit-award.svg"
+             alt=""
+             height={0}
+             width={0}
+             className="w-full h-auto object-contain hover:opacity-70 transition"
+            />
+          </div>
+
+
+        
 
       
       </div>

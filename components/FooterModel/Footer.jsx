@@ -3,8 +3,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className='bg-black'>
-      <div className='p-6 sm:p-8 md:p-10 lg:p-8 xl:p-12 2xl:p-16 flex flex-col lg:flex-row justify-between  items-start md:items-center gap-8'>
+    <div className='bg-black 2xl:px-28 lg:px-6'>
+      <div className='p-6 sm:px-20 md:p-10 lg:p-8 xl:p-12 2xl:p-16 flex flex-col lg:flex-row justify-between  items-start md:items-center gap-8'>
         <div>
           <h1 className='text-white text-[14px] sm:text-[16px] leading-[24px] sm:leading-[28px] font-semibold'>
             Receive Updates on BPL Medical Technologies
@@ -45,8 +45,8 @@ const Footer = () => {
         </div>
         <div className='text-white border-l-2 border-sky-600 pl-4 sm:pl-10 py-6 sm:py-12'>
           <h1 className='text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px] font-semibold'>Our Toll-Free Call Center at</h1>
-          <h1 className='text-[20px] sm:text-[24px] leading-[28px] sm:leading-[30px] font-normal pt-6'>1800-425-2355</h1>
-          <h1 className='text-[10px] sm:text-[12px] leading-[20px] sm:leading-[24px] font-normal pt-4'>9AM-8PM (Monday - Saturday)</h1>
+          <h1 className='text-[20px] sm:text-[24px] leading-[28px] sm:leading-[30px] font-normal pt-6 text-center'>1800-425-2355</h1>
+          <h1 className='text-[10px] sm:text-[12px] leading-[20px] sm:leading-[24px] font-normal pt-4 text-center'>9AM-8PM (Monday - Saturday)</h1>
         </div>
       </div>
       <div>

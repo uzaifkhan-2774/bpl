@@ -3,7 +3,7 @@ import React from "react";
 
 function Event() {
   return (
-    <div className="m-4 sm:m-6 lg:m-12 border-y-2 border-sky-400">
+    <div className="my-4 sm:my-6 lg:my-10 border-y-2 border-sky-300 2xl:mx-48 xl:mx-16 lg:mx-8 md:mx-10 mx-5 sm:mx-6 ">
       <div className="pt-10 sm:pt-16 lg:pt-20 flex flex-wrap lg:flex-nowrap justify-between">
         <div className="w-full lg:w-auto">
           <p className="text-[14px] sm:text-[16px] leading-[24px] sm:leading-[32px] tracking-[0.72px] font-medium Font-[Poppins] text-[#898989]">
@@ -27,7 +27,7 @@ function Event() {
         </div>
       </div>
 
-      <div className="pb-10 sm:pb-16 lg:pb-20 pt-6 sm:pt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="pb-10 sm:pb-16 lg:pb-20 pt-6 sm:pt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 2xl:gap-14">
        
         <div className="w-full border shadow-sm rounded-3xl flex flex-col justify-between">
           <Image
@@ -46,8 +46,8 @@ function Event() {
           <h1 className="p-4 text-[12px] sm:text-[14px] leading-[18px] sm:leading-[21px] tracking-[-0.14px] text-left font-medium text-[#898989]">
             Lörem ipsum retronym id-sprej, i nins, rektigt mobilzombie och blandkostare.
           </h1>
-          <div className="relative group w-[270px] flex justify-center mx-auto mt-6 mb-6">
-            <button className="py-2 px-12 sm:px-16 lg:px-24 text-[14px] sm:text-[15px] leading-[20px] tracking-[-0.14px] border rounded-lg font-medium border-black block transition-all duration-300 opacity-100 group-hover:opacity-0">
+          <div className="relative group flex justify-center mx-auto mt-6 mb-6">
+            <button className="py-2 h-full px-12 sm:px-16 lg:px-24 text-[14px] sm:text-[15px] leading-[20px] tracking-[-0.14px] border rounded-lg font-medium border-black block transition-all duration-300 opacity-100 group-hover:opacity-0">
               Learn More
             </button>
             <Image
@@ -78,7 +78,7 @@ function Event() {
           <h1 className="p-4 text-[12px] sm:text-[14px] leading-[18px] sm:leading-[21px] tracking-[-0.14px] text-left font-medium text-[#898989]">
             Lörem ipsum retronym id-sprej, i nins, rektigt mobilzombie och blandkostare.sldfs sldfoi
           </h1>
-          <div className="relative group w-[270px] flex justify-center mx-auto mt-6 mb-6">
+          <div className="relative group  flex justify-center mx-auto mt-6 mb-6">
             <button className="py-2 px-12 sm:px-16 lg:px-24 text-[14px] sm:text-[15px] leading-[20px] tracking-[-0.14px] border rounded-lg font-medium border-black block transition-all duration-300 opacity-100 group-hover:opacity-0">
               Learn More
             </button>
@@ -110,7 +110,7 @@ function Event() {
           <h1 className="p-4 text-[12px] sm:text-[14px] leading-[18px] sm:leading-[21px] tracking-[-0.14px] text-left font-medium text-[#898989]">
             Lörem ipsum retronym id-sprej, i nins, rektigt mobilzombie och blandkostare.
           </h1>
-          <div className="relative group w-[270px] flex justify-center mx-auto mt-6 mb-6">
+          <div className="relative group flex justify-center mx-auto mt-6 mb-6">
             <button className="py-2 px-12 sm:px-16 lg:px-24 text-[14px] sm:text-[15px] leading-[20px] tracking-[-0.14px] border rounded-lg font-medium border-black block transition-all duration-300 opacity-100 group-hover:opacity-0">
               Learn More
             </button>

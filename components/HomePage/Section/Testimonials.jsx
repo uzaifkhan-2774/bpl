@@ -52,6 +52,7 @@ const Testimonials = () => {
   }, []);
 
   return (
+    <div className="2xl:px-48 xl:px-16 lg:px-8 md:px-10 px-5 sm:px-6 py-8 ">
     <div className="text-[#FFFFFF] bg-sky-400 rounded-xl p-8">
       <div className="p-12 flex flex-col md:flex-row justify-between">
         <div>
@@ -66,12 +67,12 @@ const Testimonials = () => {
         </div>
       </div>
 
-      <div className="h-[458px] w-full overflow-y-hidden flex flex-col md:flex-row justify-between gap-10">
+      <div className="h-[458px] w-full overflow-y-hidden flex flex-col md:flex-row justify-between gap-10 2xl:gap-20">
         {/* Left */}
-        <div ref={left} className="w-full md:w-[50%]  mt-24 flex flex-col gap-5">
+        <div ref={left} className="w-full md:w-[50%]  mt-28 flex flex-col gap-5">
           {data.map((item, index) => (
             <div className='w-full hidden md:block lg:block xl:block 2xl:block sm:hidden ' key={index}>
-              <div className="border p-4 border-white w-full rounded-3xl h-[291px]">
+              <div className="border p-4 border-white w-full rounded-3xl h-[400px] md:h-[320px] lg:h-[280px]">
                 <div className="h-[70px] w-[70px] rounded-full border border-white">
                   {typeof item.Image === "string" ? (
                     <img src={item.Image} alt="User" className="h-full w-full rounded-full" />
@@ -94,7 +95,7 @@ const Testimonials = () => {
         <div ref={right} className="w-full md:w-[50%] translate-y-[-231%]  flex flex-col gap-5">
           {data.map((item, index) => (
             <div className='w-full' key={index}>
-              <div className="w-full p-4 border border-white rounded-3xl h-[330px]  sm:h-[291px]  md:h-[291px]  lg:h-[291px]  xl:h-[291px]  2xl:h-[291px]  ">
+              <div className="w-full p-4 border border-white rounded-3xl h-[330px]  sm:h-[291px] md:h-[320px] lg:h-[280px]  ">
                 <div className="h-[70px] w-[70px] rounded-full border border-white">
                   {typeof item.Image === "string" ? (
                     <img src={item.Image} alt="User" className="h-full w-full rounded-full" />
@@ -114,6 +115,7 @@ const Testimonials = () => {
         
 
       </div>
+    </div>
     </div>
   );
 };

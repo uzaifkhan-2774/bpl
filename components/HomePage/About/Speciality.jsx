@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Speciality = () => {
   return (
-    <div className="p-6 md:p-12 h-full flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
+    <div className="py-6 md:py-12 2xl:px-48 xl:px-16 lg:px-8 md:px-10 px-5 sm:px-6 h-full flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
       <h1 className="text-[28px] md:text-[36px] lg:text-[48px] leading-[34px] md:leading-[45px] lg:leading-[57px] font-montserrat">
         Our Specialities
       </h1>

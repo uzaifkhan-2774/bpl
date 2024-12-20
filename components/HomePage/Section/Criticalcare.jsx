@@ -3,8 +3,8 @@ import React from "react";
 
 const Criticalcare = () => {
   return (
-    <div className="p-16">
-      <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-2 xxl:grid-cols-3 gap-8">
+    <div className="py-16 px-5 2xl:px-48 xl:px-16 lg:px-8 md:px-10  sm:px-6  ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-2 xxl:grid-cols-3 gap-8 2xl:gap-24">
         {/* Card 1 */}
         <div className="relative border rounded-xl p-6 overflow-hidden group bg-white transition-all duration-500 hover:bg-black hover:bg-opacity-75">
           <Image
