@@ -69,7 +69,7 @@ const Testimonials = () => {
 
       <div className="h-[458px] w-full overflow-y-hidden flex flex-col md:flex-row justify-between gap-10 2xl:gap-20">
         {/* Left */}
-        <div ref={left} className="w-full md:w-[50%]  mt-28 flex flex-col gap-5">
+        <div ref={left} className="w-full md:w-[50%]   mt-28 flex flex-col gap-5">
           {data.map((item, index) => (
             <div className='w-full hidden md:block lg:block xl:block 2xl:block sm:hidden ' key={index}>
               <div className="border p-4 border-white w-full rounded-3xl h-[400px] md:h-[320px] lg:h-[280px]">
@@ -94,7 +94,7 @@ const Testimonials = () => {
       
         <div ref={right} className="w-full md:w-[50%] translate-y-[-231%]  flex flex-col gap-5">
           {data.map((item, index) => (
-            <div className='w-full' key={index}>
+            <div className='w-full hidden md:block' key={index}>
               <div className="w-full p-4 border border-white rounded-3xl h-[330px]  sm:h-[291px] md:h-[320px] lg:h-[280px]  ">
                 <div className="h-[70px] w-[70px] rounded-full border border-white">
                   {typeof item.Image === "string" ? (
@@ -112,11 +112,46 @@ const Testimonials = () => {
             </div>
           ))}
         </div>
-        
+        <div className="w-full flex flex-col gap-5 justify-center  md:hidden translate-y-[-42%]">
+        <div className="border px-4 py-1 border-white w-full rounded-3xl h-[230px]  sm:h-[200px] overflow-hidden ">
+                <div className="h-[70px] w-[70px] rounded-full border border-white">
+                
+                 <Image src="/assets/jockim schork.jpg"
+                 alt="img"
+                 height={70}
+                 width={70}
+                 className="rounded-full"/>
+                 
+                </div>
+                <div>
+                  <h1 className="text-[20px] leading-[30px] tracking-[-0.36] py-1 text-[#FFFFFF]">Dr. Rajib Bhattacharya</h1>
+                  <p className="text-[12px] leading-[18px] tracking-[-0.36] font-normal  text-[#FFFFFF]">Guwahati Medical College Hospital, Assam</p>
+                  <p className="text-[16px] leading-[24px] tracking-[-0.36] font-normal py-1 text-[#FFFFFF]">For the last couple of years I am using BPL patient monitors and ECG machines and as per my observation the products </p>
+                </div>
+              </div>
+              <div className="w-full px-4 py-1 border border-white rounded-3xl h-[230px]  sm:h-[200px] overflow-hidden  ">
+                <div className="h-[70px] w-[70px] rounded-full border border-white">
+                
+                <Image src="/assets/tim coook.jpg"
+                 alt="img"
+                 height={70}
+                 width={70}
+                 className="rounded-full"/>
+                 
+                </div>
+                <div>
+                  <h1 className="text-[20px] leading-[30px] tracking-[-0.36] py-1 text-[#FFFFFF]">Dr. Thomas Methews</h1>
+      <p className="text-[12px] leading-[18px] tracking-[-0.36] font-normal  text-[#FFFFFF]"> "Madrid Medical College Hospital, Spain</p>
+                  <p className="text-[16px] leading-[24px] tracking-[-0.36] font-normal py-1 text-[#FFFFFF]">For the last couple of years I am using BPL patient monitors and ECG machines and as per my observation the products</p>
+                </div>
+              </div>
+        </div>
 
       </div>
+     
+      </div>
     </div>
-    </div>
+    
   );
 };
 
